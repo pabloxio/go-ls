@@ -1,7 +1,8 @@
 package main
 
 type config struct {
-	showHiddenFiles bool
+	showHiddenFiles   bool
+	longListingFormat bool
 }
 
 func newConfig() *config {
