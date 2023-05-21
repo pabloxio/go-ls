@@ -2,7 +2,10 @@ module github.com/pabloxio/go-ls
 
 go 1.19
 
-require github.com/gosuri/uitable v0.0.4
+require (
+	github.com/gosuri/uitable v0.0.4
+	github.com/spf13/pflag v1.0.5
+)
 
 require (
 	github.com/fatih/color v1.15.0 // indirect
